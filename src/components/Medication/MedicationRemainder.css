@@ -1,0 +1,43 @@
+.App {
+    text-align: center;
+  }
+  
+  h1, h2 {
+    font-family: Arial, sans-serif;
+  }
+
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="time"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #b9cee3;
+  }
+  
+  button[type="submit"] {
+    background-color: #1d68c3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #005fa3;
+    transform: scale(1.1);
+  }
+  

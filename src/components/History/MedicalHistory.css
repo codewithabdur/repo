@@ -1,0 +1,51 @@
+.medical-history {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    background-color: b9cee3;
+  }
+  
+  button[type="submit"] {
+    background-color: #506c81;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #1d68c3;
+  }
+  
+  .history-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #b9cee3;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
